@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { addData, deleteData, fetchData, fetchSingleData, updateData } from "../Api.js";
+//import { addData, deleteData, fetchData, fetchSingleData, updateData } from "../Api.js";
 
 const apiRouter = Router();
 
