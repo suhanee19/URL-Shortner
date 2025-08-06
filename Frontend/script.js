@@ -7,7 +7,7 @@ document.getElementById("urlForm").addEventListener("submit", async function (e)
   const errorDiv = document.getElementById("error");
 
   try {
-    const response = await fetch("http://localhost:3000/api/url/shortener", {
+    const response = await fetch("https://url-shortner-2-zl86.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
