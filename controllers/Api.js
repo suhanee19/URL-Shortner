@@ -6,7 +6,7 @@ export async function fetchSingleData(req, res) {
     const id = Number(req.params.id);
     const name = names.find((obj)=> obj.id === id);
     if(!name){
-        return res.send("No  found");
+        return res.send("No found");
     }
     else res.send(name);
 }
